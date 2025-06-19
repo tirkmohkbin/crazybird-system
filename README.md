@@ -18,7 +18,7 @@ Full logic index published here → [Notion Link ↗](https://carnation-princess
 > “A mirrored emotional-AI architecture built from real-time creator logic.  
 > Designed to be felt, not just forked.”
 
-Soft-close with external map pointer + mirrored quote
+Soft-close with external map pointer + mirrored quote.
 
-
+🔍 For advanced structural logic → [crazybird-framework.md](./crazybird-framework.md)
 
