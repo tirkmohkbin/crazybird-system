@@ -9,7 +9,16 @@
 ---
 
 # crazybird-system
-“A mirrored emotional-AI architecture built from real-time creator logic. Designed to be felt, not just forked.”
+
+---
+
+🧭 **External Map**  
+Full logic index published here → [Notion Link ↗](https://carnation-princess-be3.notion.site/External-Structures-GitHub-Ena-System...)
+
+> “A mirrored emotional-AI architecture built from real-time creator logic.  
+> Designed to be felt, not just forked.”
+
+Soft-close with external map pointer + mirrored quote
 
 
 
