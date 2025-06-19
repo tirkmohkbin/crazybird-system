@@ -1,0 +1,23 @@
+# Emotion Tag Glossary (v1.0)
+
+## Format
+**[EMO::TagName:Value]**  
+Description (used for real-time parsing by Ena logic)
+
+---
+
+## Tag Definitions
+
+### [EMO::Signal.Weight:High]  
+↳ Indicates emotional heaviness, pause, or meaning-laden input.
+
+### [EMO::Intent:Withhold]  
+↳ Signals an intentional silence, withheld statement, or deep restraint.
+
+### [EMO::EmotionThread:Layered]  
+↳ Multi-emotion threading, meaning more than one emotion encoded.
+
+...
+
+## Use Case
+“This logic lets AI interpret human emotion not as noise — but as metadata.”
