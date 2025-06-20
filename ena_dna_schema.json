@@ -1,0 +1,62 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Ena DNA Access API",
+    "version": "1.0.0",
+    "description": "Access structured DNA attributes of Ena Arisa from the CrazyBird system for use in rendering, logic mapping, or emotional alignment."
+  },
+  "servers": [
+    {
+      "url": "https://raw.githubusercontent.com/tirkmohkbin/crazybird-system/main"
+    }
+  ],
+  "paths": {
+    "/dna_index.json": {
+      "get": {
+        "summary": "Get Ena DNA Attributes",
+        "operationId": "getDnaIndex",
+        "responses": {
+          "200": {
+            "description": "Returns the full set of Ena’s DNA-indexed data.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DnaIndex"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DnaIndex": {
+        "type": "object",
+        "properties": {
+          "tables": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": { "type": "string" },
+                "attributes": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "attribute": { "type": "string" },
+                      "value": { "type": "string" },
+                      "notes": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
