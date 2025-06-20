@@ -1,0 +1,29 @@
+from datetime import datetime
+
+# Generate content for dna_index.md
+dna_index_content = f"""# 🧬 Ena Arisa – DNA Index
+
+This page links to all core visual DNA and logic structures used for Ena Arisa inside the Crazybird System.
+
+## 📂 Core Tables
+- [Full DNA Master Table](ena_dna_master.md)
+- [Emotion Mapping Tags](emotion-tag-glossary.md)
+- [Visual Logic System](crazybird-framework.md)
+
+## 📎 Mirror Reference
+View structured version → [Notion DNA Table View](https://www.notion.so/DNA-Tables-from-GitHub-...)
+
+---
+
+Curated by: 🧠 CrazyBird  
+Silent logic with structure-first emotion design.
+
+_Last updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}_
+"""
+
+# Save the markdown to file
+file_path = "/mnt/data/dna_index.md"
+with open(file_path, "w", encoding="utf-8") as f:
+    f.write(dna_index_content)
+
+file_path
