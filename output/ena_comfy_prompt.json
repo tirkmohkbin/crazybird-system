@@ -1,22 +1,16 @@
-scripts/gen_prompt_json.py
-import json
-
-prompt = {
-  "prompt_name": "Ena Arisa – DNA Locked Prompt",
+{
+  "prompt_name": "Ena Arisa \u2013 DNA Locked Prompt",
   "description": "Millimeter-locked facial DNA prompt for ComfyUI rendering.",
-  "prompt": "portrait of Ena Arisa, serene expression, pastel skin #FFE9E4, soft white lighting, oval-slim face (18.5cm length, 13.2cm cheekbone, 4.2cm chin), eyes 3.2cm wide 1.1cm tall, 3.5cm inner eye gap, nose 3.5cm width, 5.2cm bridge, 1.7cm tip to lip, lips 4.2cm wide, vertical thirds 5.5/5.2/7.8cm, soft frame bob / dark brown / center part, realistic visible texture, zero exaggeration, full proportional balance",
+  "prompt": "portrait of Ena Arisa, serene expression, pastel skin #FFE9E4, soft white lighting, oval-slim face",
   "style_lock": {
     "lighting": "soft white only",
     "skin": "#FFE9E4",
     "texture": "visible pores, pastel tone",
     "expression": "serene, kind",
-    "no_exaggeration": True,
-    "no_cartoon": True,
-    "no_yellow_light": True
+    "no_exaggeration": true,
+    "no_cartoon": true,
+    "no_yellow_light": true
   },
   "version": "1.0",
   "source": "https://www.notion.so/DNA-Tables-from-GitHub-218c51083b6680acbd9af0b12e328793"
 }
-
-with open("output/ena_comfy_prompt.json", "w") as f:
-    json.dump(prompt, f, indent=2)
