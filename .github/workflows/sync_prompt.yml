@@ -20,7 +20,7 @@ jobs:
 
       - name: Run Generator Script
         run: |
-          python scripts/gen_prompt_json.py
+          python output/scripts/gen_prompt_json.py
 
       - name: Commit and Push
         run: |
