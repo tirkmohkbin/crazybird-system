@@ -1,34 +1,8 @@
-name: generate-prompt
-
-on:
-  workflow_dispatch:
-  push:
-    paths:
-      - 'scripts/generate_prompt.py'
-      - 'dna_index.json'
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Run Generator Script
-        run: |
-          python scripts/generate_prompt.py
-
-      - name: Commit and Push
-        run: |
-          git config user.name "crazybird-bot"
-          git config user.email "crazybird-bot@example.com"
-          git pull --rebase origin main
-          git add .
-          git commit -m "🤖 Auto-update: Ena prompt generated from DNA"
-          git push origin main
+- name: Commit and Push
+  run: |
+    git config user.name "crazybird-bot"
+    git config user.email "bot@crazybird.system"
+    git add output/ena_comfy_prompt.json
+    git commit -m "Auto-update: Ena comfy prompt from DNA" || echo "No changes to commit"
+    git pull --no-rebase --autostash origin main
+    git push origin main
