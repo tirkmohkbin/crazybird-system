@@ -1,0 +1,31 @@
+name: Sync Ena DNA Prompt to ComfyUI JSON
+
+on:
+  push:
+    paths:
+      - 'ena_dna_master.md'
+  workflow_dispatch:
+
+jobs:
+  generate-prompt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run Generator Script
+        run: |
+          python scripts/gen_prompt_json.py
+
+      - name: Commit and Push
+        run: |
+          git config user.name "crazybird-bot"
+          git config user.email "bot@crazybird.system"
+          git add output/ena_comfy_prompt.json
+          git commit -m "Auto-update: Ena comfy prompt from DNA"
+          git push
