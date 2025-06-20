@@ -1,4 +1,14 @@
 from datetime import datetime
+{
+  "title": "Anchor 002 – Casual Daylight",
+  "attributes": [
+    {
+      "attribute": "identity::anchor:default-day",
+      "value": "visual-standard",
+      "notes": "Soft daylight casual anchor for default render"
+    }
+  ]
+}
 
 # Generate content for dna_index.md
 dna_index_content = f"""# 🧬 Ena Arisa – DNA Index
