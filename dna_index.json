@@ -1,0 +1,86 @@
+{
+  "source": "ena_dna_master",
+  "table": "Facial Proportions",
+  "attributes": [
+    {
+      "name": "Forehead Height",
+      "value_cm": 5.5,
+      "note": "From hairline to brow"
+    },
+    {
+      "name": "Cheekbone Width",
+      "value_cm": 13.2,
+      "note": "Horizontal width across the face"
+    },
+    {
+      "name": "Chin Width",
+      "value_cm": 4.2,
+      "note": "Tapered, feminine jawline"
+    },
+    {
+      "name": "Face Length",
+      "value_cm": 18.5,
+      "note": "Total from hairline to chin"
+    },
+    {
+      "name": "Eye Width",
+      "value_cm": 3.2,
+      "note": "Per eye"
+    },
+    {
+      "name": "Eye Height",
+      "value_cm": 1.1,
+      "note": "Natural soft curvature"
+    },
+    {
+      "name": "Inner Eye Distance",
+      "value_cm": 3.5,
+      "note": "Between tear ducts"
+    },
+    {
+      "name": "Eye-to-Brow Distance",
+      "value_cm": 2.0,
+      "note": "Calm, gentle expression zone"
+    },
+    {
+      "name": "Eye-to-Hairline",
+      "value_cm": 5.5,
+      "note": "Vertical spacing reference"
+    },
+    {
+      "name": "Nose Width",
+      "value_cm": 3.5,
+      "note": "Matches inner eye spacing"
+    },
+    {
+      "name": "Nose Bridge Length",
+      "value_cm": 5.2,
+      "note": "Slim with gentle slope"
+    },
+    {
+      "name": "Nose Tip to Upper Lip",
+      "value_cm": 1.7,
+      "note": "Delicate vertical ratio"
+    },
+    {
+      "name": "Lip Width",
+      "value_cm": 4.2,
+      "note": "Aligns with inner irises"
+    },
+    {
+      "name": "Upper Lip to Chin",
+      "value_cm": 3.5,
+      "note": "Balanced lower third"
+    },
+    {
+      "name": "Ear to Eye Corner",
+      "value_cm": 1.8,
+      "note": "Horizontal anchor for facial width"
+    },
+    {
+      "name": "Nose Wing to Mouth",
+      "value_cm": 0.6,
+      "note": "Emotional curve base"
+    }
+  ]
+}
