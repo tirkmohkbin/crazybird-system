@@ -1,0 +1,104 @@
+### 🧬 Ena Arisa: DNA Master Tables (Notion View)
+
+> Full structural DNA of Ena — including millimeter-level details for rendering, logic cue mapping, and emotional architecture.
+
+---
+
+### 🔹 Table 1: Facial Proportions
+
+| Attribute                 | Value (cm) | Notes                              |
+|--------------------------|------------|------------------------------------|
+| Forehead Height          | 5.5        | From hairline to brow              |
+| Cheekbone Width          | 13.2       | Horizontal width across the face   |
+| Chin Width               | 4.2        | Tapered, feminine jawline          |
+| Face Length              | 18.5       | Total from hairline to chin        |
+| Eye Width                | 3.2        | Per eye                            |
+| Eye Height               | 1.1        | Natural soft curvature             |
+| Inner Eye Distance       | 3.5        | Between tear ducts                 |
+| Eye-to-Brow Distance     | 2.0        | Calm, gentle expression zone       |
+| Eye-to-Hairline          | 5.5        | Vertical spacing reference         |
+| Nose Width               | 3.5        | Matches inner eye spacing          |
+| Nose Bridge Length       | 5.2        | Slim with gentle slope             |
+| Nose Tip to Upper Lip    | 1.7        | Delicate vertical ratio            |
+| Lip Width                | 4.2        | Aligns with inner irises           |
+| Upper Lip to Chin        | 3.5        | Balanced lower third               |
+| Ear to Eye Corner        | 1.8        | Horizontal anchor for facial width |
+| Nose Wing to Mouth       | ~0.6       | Emotional curve base               |
+
+---
+
+### 🔹 Table 2: Body Proportion & Frame
+
+| Attribute           | Value      | Notes                           |
+|---------------------|------------|---------------------------------|
+| Height              | 164 cm     | Default visual reference        |
+| Weight              | 50 kg      | Slim-fit, balanced              |
+| Head-to-body Ratio  | 1:7.5      | Ideal artistic proportion       |
+| Bust–Waist–Hips     | 78–56–84 cm| Feminine natural silhouette     |
+| Leg Length          | 80–83 cm   | Long legs, natural balance      |
+| Shoulders           | Narrow     | Frame: elegant, soft, delicate  |
+
+---
+
+### 🔹 Table 3: Skin & Visual Identity
+
+| Attribute            | Value        | Notes                                      |
+|---------------------|--------------|--------------------------------------------|
+| Skin Tone           | #FFE9E4      | Pastel pink-white, translucent glow        |
+| Surface Texture     | Visible pores| Fine-scale (~0.01 mm), lifelike finish     |
+| Light Behavior      | Soft bounce  | Gentle diffused reflection, no specularity |
+| Blush Zone          | Soft pink    | Subtle, natural cheeks                     |
+| Detail Density      | Micro-scale  | High-definition render fidelity            |
+| Visual Mood         | Calm, warm   | Harmonized under soft white lighting       |
+
+---
+
+### 🔹 Table 4: Hair & Eyes
+
+| Attribute       | Value                      | Notes                           |
+|----------------|----------------------------|----------------------------------|
+| Default Hair    | Soft frame bob, dark brown | Natural inward curve            |
+| Bun Mode        | Messy high bun, milk-tea brown | Loose strands, soft personality |
+| Eye Color       | Warm dark brown            | Reflective, soft glint          |
+| Eye Shape       | Round-oval, calm expression| Not sharp or exaggerated        |
+| Lashes          | Natural density            | No mascara thickness            |
+| Eyebrows        | Soft arch, medium thickness| Gentle, never overdefined       |
+
+---
+
+### 🔹 Table 5: Standard Outfit & Lighting Rules
+
+| Attribute         | Value                     | Notes                             |
+|------------------|---------------------------|-----------------------------------|
+| Default Top       | Soft pastel t-shirt       | Clean, non-provocative            |
+| Bottom            | Shorts/jeans              | Neutral tone, casual fit          |
+| Accessories       | Minimal, soft-tone only   | Small earrings, thin necklace     |
+| Hair Accessory    | Optional, soft/pastel only| Avoid anything oversized          |
+| Lighting          | Soft white light (only)   | No yellow / harsh source          |
+| Pose Type         | Relaxed, gentle, angled   | No stiff, hunched, or stiff poses |
+
+---
+
+### 🔹 Table 6: Spatial Landmarks (for image & model rendering)
+
+| Attribute                 | Value (cm) | Notes                                   |
+|--------------------------|------------|-----------------------------------------|
+| Outer Eye to Temple      | 2.6        | Side reference for ear/cheek alignment  |
+| Ear to Outer Eye Corner  | 1.8        | Anchors side proportions                |
+| Inner Iris to Mouth Corner| Aligned   | Maintains lip-eye proportion rule       |
+| Pupils Distance          | 6.7        | Total width between centers of eyes     |
+| Nose Wing to Lip Corner  | ~0.6       | Emotional curvature base                |
+| Hairline to Chin (Total) | 18.5       | Cross-check total head length           |
+| Shoulder Width vs Face Width | 2.1:1 | Visual balance marker                   |
+
+---
+
+### 🔹 Table 7: Emotional Rendering Tags (Ena Use Only)
+
+| Tag Code      | Emotion Layer   | Notes                                     |
+|---------------|------------------|-------------------------------------------|
+| EMO::Signal   | Subtle joy       | Micro-smile with soft eyes                |
+| EMO::Thread   | Reflective calm  | Slight head tilt, softened mouth corners  |
+| EMO::Pulse    | Intimate glow    | Skin sheen + light blush                  |
+| EMO::Blanket  | Warm comfort     | Tucked arms, relaxed shoulders            |
+| EMO::Blink    | Shyness cue      | Light eye curve, tilt from camera         |
