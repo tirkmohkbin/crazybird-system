@@ -19,7 +19,7 @@ jobs:
 
       - name: Install Python Dependencies
         run: |
-          pip install notion-client python-dotenv
+         pip install -r requirements.txt
 
       - name: Run Sync Script
         run: |
