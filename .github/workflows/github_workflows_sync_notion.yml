@@ -23,10 +23,10 @@ jobs:
 
     - name: Run Sync Script
       run: |
-        python sync_github_to_notion_multi.py
-      env:
+           python sync_github_to_notion_multi_updated.py
+     env:
         NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
         NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
-        GITHUB_REPO: ${{ secrets.GITHUB_REPO }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_FILE_PATHS: README.md,crazybird-framework.md,emotion-tag-glossary.md
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        REPO_NAME: ${{ secrets.REPO_NAME }}
+       SYNC_FILE_PATHS: ${{ secrets.SYNC_FILE_PATHS }}
