@@ -9,24 +9,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-    - name: Install Python Dependencies
-      run: |
-        pip install notion-client python-dotenv
+      - name: Install Python Dependencies
+        run: |
+          pip install notion-client python-dotenv
 
-    - name: Run Sync Script
-      run: |
-           python sync_github_to_notion_multi_updated.py
-     env:
-        NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-        NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        REPO_NAME: ${{ secrets.REPO_NAME }}
-       SYNC_FILE_PATHS: ${{ secrets.SYNC_FILE_PATHS }}
+      - name: Run Sync Script
+        run: |
+          python sync_github_to_notion_multi_updated.py
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          REPO_NAME: ${{ secrets.REPO_NAME }}
+          SYNC_FILE_PATHS: ${{ secrets.SYNC_FILE_PATHS }}
