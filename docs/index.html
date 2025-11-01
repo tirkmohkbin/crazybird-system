@@ -1,6 +1,90 @@
 <!doctype html>
-<title>EnaDream — Link Hub</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<h1>It works!</h1>
-<p><a href="https://www.etsy.com/shop/EnaDreamArtStudio" target="_blank">Go to Etsy</a></p>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>EnaDream – Link Hub</title>
+
+  <!-- SEO -->
+  <meta name="description"
+        content="15 Siamese Cat Watercolor Art (Pastel Collection) – High-resolution PNG for printables & clipart. SFW & halal-friendly.">
+  <link rel="canonical" href="https://www.etsy.com/shop/EnaDreamArtStudio"> <!-- REPLACE? only ifมีโดเมนของตัวเอง -->
+
+  <!-- Open Graph / Social preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="15 Siamese Cat Watercolor Art – EnaDreamArtStudio">
+  <meta property="og:description"
+        content="Pastel watercolor Siamese cats (15 poses). Click to shop on Etsy.">
+  <meta property="og:image"
+        content="./EnaDreamArtStudio-SiameseCat-Watercolor-Art-Pastel-Collection-15Cats-Hero.jpg"> <!-- REPLACE: ชื่อไฟล์รูป hero ที่อัปโหลดใน docs/ -->
+  <meta property="og:image:alt" content="15 Siamese Cat Watercolor Art – Pastel Collection">
+  <meta name="theme-color" content="#f7f5f2">
+
+  <style>
+    :root{
+      --bg:#f7f5f2; --text:#1b1f23; --card:#ffffff; --muted:#6b7280;
+      --btn:#1f2937; --btnText:#ffffff; --ring:rgba(0,0,0,.08);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0}
+    body{
+      font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+      background:var(--bg); color:var(--text);
+      line-height:1.5;
+      display:flex; min-height:100svh; align-items:center; justify-content:center;
+      padding:24px;
+    }
+    .wrap{max-width:960px; width:100%}
+    .card{
+      background:var(--card); border-radius:20px; box-shadow:0 8px 30px var(--ring);
+      overflow:hidden; border:1px solid #eee;
+    }
+    .hero{width:100%; display:block; aspect-ratio: 2000/1500; object-fit:cover}
+    .pad{padding:20px 22px}
+    h1{margin:0 0 8px; font-size:clamp(22px,3.2vw,30px)}
+    p{margin:0 0 14px; color:var(--muted)}
+    .badges{display:flex; gap:8px; flex-wrap:wrap; margin:12px 0 18px}
+    .chip{font-size:12px; border:1px solid #e5e7eb; padding:6px 10px; border-radius:999px; background:#fafafa}
+    .btn{
+      display:inline-block; text-decoration:none; background:var(--btn); color:var(--btnText);
+      padding:12px 18px; border-radius:12px; font-weight:600; transition:transform .05s ease;
+    }
+    .btn:active{transform:translateY(1px)}
+    footer{margin-top:10px; font-size:12px; color:var(--muted)}
+    footer a{color:inherit}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <article class="card">
+      <!-- REPLACE: ใส่ชื่อไฟล์รูป hero ที่อยู่ใน docs/ ให้ตรงกับของจริง -->
+      <img class="hero"
+           src="./EnaDreamArtStudio-SiameseCat-Watercolor-Art-Pastel-Collection-15Cats-Hero.jpg?v=1"
+           alt="15 Siamese Cat Watercolor Art – Pastel Collection by EnaDreamArtStudio">
+
+      <div class="pad">
+        <h1>15 Siamese Cat Watercolor – Pastel Collection</h1>
+        <p>High-resolution PNG pack for printables & clipart. Soft pastel tone, SFW & halal-friendly.</p>
+
+        <div class="badges">
+          <span class="chip">PNG 5000×5000</span>
+          <span class="chip">300 DPI</span>
+          <span class="chip">Pastel / Soft</span>
+          <span class="chip">SFW / Halal</span>
+        </div>
+
+        <!-- REPLACE: ลิงก์ร้าน Etsy (ถ้าจะเปลี่ยน) -->
+        <a class="btn" href="https://www.etsy.com/shop/EnaDreamArtStudio" target="_blank" rel="noopener">
+          Shop on Etsy
+        </a>
+
+        <footer>
+          © EnaDreamArtStudio · Contact:
+          <a href="mailto:Tirkmohkbin@gmail.com">Tirkmohkbin@gmail.com</a> <!-- REPLACE: อีเมลถ้าต้องการ -->
+        </footer>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
